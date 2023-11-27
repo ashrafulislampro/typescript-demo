@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typescript Project</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>User Registration.</h1>
+    <form class="user-form">
+      <div>
+        <label for="name">Name: </label>
+        <input type="text" name="" id="name" />
+      </div>
+      <div>
+        <label for="email">Email: </label>
+        <input type="email" name="" id="email" />
+      </div>
+      <div>
+        <label for="country">Country: </label>
+
+        <select name="country" id="country">
+          <option value="bangladesh">Bangladesh</option>
+          <option value="india">India</option>
+          <option value="pakistan">Pakistan</option>
+        </select>
+      </div>
+      <div>
+        <label for="feedback">Feedback: </label>
+        <textarea name="feedback" id="feedback" rows="3" cols="30"></textarea>
+      </div>
+
+      <div>
+        <button type="submit">Save</button>
+      </div>
+    </form>
+    <script src="../dist/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+* {
+  background-color: bisque;
+}
+
+div {
+  margin: 0.5rem 0;
+}
+
+input[type="email"] {
+  width: 13rem;
+}
